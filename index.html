@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhotowaleBhaiya</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      :root {
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        
+      }
+      body {
+        width: 100vw;
+        height: 115vh;
+        background: url("image/bg.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      /* .header {
+        } */
+      .nav {
+        display: flex;
+        justify-content: space-between;
+      }
+      .mid {
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+        margin: 10px;
+      }
+      a {
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: white;
+      }
+      .right {
+        margin: 10px;
+        /* color: black; */
+        padding: 5px 15px;
+      }
+      .btn {
+        border: 2px solid green;
+        border-radius: 5px;
+        color: white;
+        margin-right: 10px;
+        font-size: 1.5rem;
+        padding: 5px 15px;
+      }
+      .logo {
+        border-radius: 100px;
+        height: 150px;
+        width: auto;
+      }
+      .welcome {
+        width: 700px;
+        background-color: rgba(236, 228, 228, 0.089);
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+        margin: 100px auto 0;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+        color: aliceblue;
+      }
+      .welcome > h1 {
+        margin-bottom: 20px;
+        color: yellow;
+      }
+      .gallery {
+        width: 1200px;
+        margin: 100px auto 0;
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: repeat(2, 300px);
+        gap: 50px;
+        justify-content: center;
+        padding-bottom: 100px;
+      }
+
+      img {
+        width: 300px;
+        height: 300px;
+      }
+      .footer {
+        width: 100vw;
+        background-color: rgba(236, 228, 228, 0.089);
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+        margin: 100px auto 0;
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+        padding: 20px;
+        text-align: center;
+        color: rgb(0, 42, 78);
+      }
+      .t{
+          color: black;
+          text-decoration: none;
+      }
+      .nav-item{
+          list-style:none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="nav">
+        <img src="image/Logo.jfif" class="logo" />
+
+        <ul class="mid">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+        <div class="right"><a href="Signup.jsp" target="_blank" class="btn">Signup</a>
+        <a href="Login.jsp" target="_blank" class="btn">Login</a></div>
+      </div>
+    </div>
+    <div class="welcome">
+      <h1>WELCOME</h1>
+      <p>
+        Taking beautiful photographs will only take you so far when it comes to
+        starting a photography business. If you're really going to succeed in a
+        photography career, you're going to need to become a great business
+        person. That includes writing a business plan and keeping track of your
+        earnings.
+      </p>
+    </div>
+    <div class="gallery">
+      <div class="image"><img src="image/1.jpg" /></div>
+      <div class="image"><img src="image/5.jpg" /></div>
+      <div class="image"><img src="image/3.jpg" /></div>
+      <div class="image"><img src="image/4.jpg" /></div>
+      <div class="image"><img src="image/2.jpg" /></div>
+      <div class="image"><img src="image/6.jpg" /></div>
+    </div>
+    <footer class="footer">
+        <ul class="ace">
+          <li class="nav-item"><a href="#" class="t" >Home</a></li>
+          <li class="nav-item"><a href="#" class="t"  >Features</a></li>
+          <li class="nav-item"><a href="#" class="t"  >Pricing</a></li>
+          <li class="nav-item"><a href="#" class="t" >FAQs</a></li>
+          <li class="nav-item"><a href="#" class="t" >About</a></li>
+        </ul>
+        <p class="copy">© 2022 Company, Inc</p>
+      </footer>
+  </body>
+</html>
+
